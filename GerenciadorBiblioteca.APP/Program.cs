@@ -4,13 +4,13 @@ using GerenciadorBiblioteca.Domain.Entidades;
 
 
 Livro livro = new Livro();
-Console.WriteLine(livro.ResumoLivro());
+//Console.WriteLine(livro.ResumoLivro());
 
 MembroBiblioteca membro = new MembroBiblioteca();
 membro.Nome = "Nome do membro";
 
 Funcionario funcionario = new Funcionario();
-Console.WriteLine(funcionario.RegistrarFuncionario());
+//Console.WriteLine(funcionario.RegistrarFuncionario());
 
 Administrador admin = new Administrador();
 // sem acesso a entidade Administrador

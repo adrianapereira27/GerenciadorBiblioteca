@@ -6,9 +6,6 @@
         protected string Author { get; set; }
         internal string ISBN { get; set; }
 
-        public string ResumoLivro()
-        {
-            return "Resumo do Livro.";
-        }
+        
     }
 }
